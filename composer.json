@@ -1,0 +1,24 @@
+{
+    "name": "jakubzapletal/gopay",
+    "description": "The PHP library to handle GoPay payments",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "JakubZapletal\\Component\\Gopay\\": ""}
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*@dev",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
